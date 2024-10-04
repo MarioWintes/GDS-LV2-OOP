@@ -14,7 +14,5 @@ public class CarDemoApp {
         System.out.println("vwGolf.manufacturer = " + vwGolf.manufacturer);
         System.out.println("vwGolf.color = " + vwGolf.color);
         System.out.println("vwGolf = " + vwGolf);
-
-
     }
 }
