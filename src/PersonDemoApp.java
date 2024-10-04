@@ -3,13 +3,23 @@ public class PersonDemoApp {
         Person person1 = new Person();
         person1.firstname = "Hermann";
         person1.lastname = "Maier";
-        person1.age = 31;
+        person1.setAge(31);
         person1.height = 187;
 
-        System.out.println("person1.firstname = " + person1.firstname);
-        System.out.println("person1.lastname = " + person1.lastname);
-        System.out.println("person1.age = " + person1.age);
-        System.out.println("person1.height = " + person1.height);
-        
+        Person ich = new Person();
+        ich.setAge(24);
+        ich.height = 170;
+        ich.firstname = "Mario";
+        ich.lastname = "Wintes";
+
+        person1.print();
+        ich.print();
+        ich.getOlder();
+
+        person1.setLastname("Harold");
+        person1.print();
+
+        person1.setAge(11);
+
     }
 }
